@@ -1,0 +1,11 @@
+1) Create folder >> initialize using "git init" command
+2) configuring global username and email address
+   Commands are:
+    a) git config -- user.name "<username>"
+    b) git config -- user.email "<emailid>"
+3) create/add files to local repository/folder using text editor (eg:vim)
+4) add those files to staging area using "git add <filename>" or "git add ." which add all files to the staging area at once
+5) commit those files to local repository using "git commit -m <commit_message>"
+6) push those files to github these below commands
+     git remote add origin <repository_url>
+     git push -u origin <branch_name>
